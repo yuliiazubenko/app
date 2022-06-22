@@ -1,0 +1,75 @@
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 5%;
+  line-height: 1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  border-radius: 5px;
+}
+
+p {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.search-button {
+  border-radius: 5px;
+}
+
+.app-border {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.city-border {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.icon {
+  max-width: 100px;
+}
+
+.weather-border {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.units {
+  position: relative;
+  font-size: 1rem;
+  top: -30px;
+  left: -5px;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.weather-description {
+  font-size: 18px;
+  line-height: 2;
+  width: 70%;
+  margin: auto;
+  margin-top: 13%;
+}
