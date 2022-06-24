@@ -67,7 +67,7 @@ p {
 
 .units {
   position: relative;
-  font-size: 1rem;
+  font-size: 1.5rem;
   top: -30px;
   left: -5px;
   font-weight: 600;
@@ -92,4 +92,13 @@ p {
 
 .weather-temperature .icon {
   margin-left: 20px;
+}
+
+.active {
+  color: black;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
 }
