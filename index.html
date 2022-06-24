@@ -25,7 +25,7 @@
       <div class="app-border">
         <form class="search-form" id="search-form">
           <div class="row">
-            <div class="col-4">
+            <div class="col-6">
               <input
                 type="search"
                 placeholder="Enter a city"
@@ -52,21 +52,25 @@
         </form>
 
         <div class="city-border">
-          <div class="row">
-            <div class="col-3">
-              <h1 id="city"></h1>
-              <ul>
-                <li id="date"></li>
-                <li id="description"></li>
-              </ul>
-            </div>
+          <div class="overwiew">
+          <h1 id="city"></h1>
+          <ul>
+            <li id="date"></li>
+            <li id="description"></li>
+          </ul>
+          </div>
 
-            <div class="col-3">
+          <div class="row">
+            <div class="col-6">
+              <img src="images/sun.png" class="icon" alt="sun">
+              <div class="float-left">
               <strong class="temperature" id="temperature"></strong>
               <span class="units">°C</span>
+              </div>
+              
             </div>
 
-            <div class="col-4">
+            <div class="col-6">
               <ul class="weather-description">
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span>km\h</li>
@@ -74,6 +78,8 @@
             </div>
           </div>
         </div>
+      
+      
 
         <div class="weather-border">
           <div class="row">
@@ -114,12 +120,17 @@
             </div>
           </div>
         </div>
+        
+        
         <small
           ><a href="https://github.com/yuliiazubenko/app" target="_blank"
             >Open-source code</a
           >, by Yuliia Zubenko</small
         >
+      
+       </div>
       </div>
+     </div>
     </div>
     <script src="src/index.js"></script>
   </body>
