@@ -20,6 +20,10 @@ li {
   line-height: 25px;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
+
 input {
   border-radius: 5px;
 }
@@ -66,10 +70,11 @@ p {
   font-size: 1rem;
   top: -30px;
   left: -5px;
+  font-weight: 600;
 }
 
 .temperature {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -85,6 +90,6 @@ p {
   margin-bottom: 20px;
 }
 
-.weather-icon img {
-  margin-right: 100px;
+.weather-temperature .icon {
+  margin-left: 20px;
 }
